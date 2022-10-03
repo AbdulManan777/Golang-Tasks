@@ -1,4 +1,4 @@
-package main
+package Task1
 
 import "fmt"
 
@@ -13,14 +13,4 @@ type Person struct {
     return p.Name
  }
  
- func main() {
-    p := Person{
-       Name: "Manan",
-       Age:  21,
-       City: "Islamabad",
-    }
  
-    name := structArgum(p)
-
-    fmt.Println(name)
- }
